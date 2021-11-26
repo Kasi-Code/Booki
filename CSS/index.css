@@ -13,8 +13,23 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+.accom_link a:hover, .act_link a:hover {
+    color: rgb(0,101,252);
+    border-bottom-color: rgb(0,101,252);
+    border-bottom-style: solid ;
+    border-bottom-width: 3px;
+}
+.accom_link li, .act_link li {
+    width: 100%;
+    text-align: center;
+}
 a:hover {
     color: rgb(0,101,252);
+}
+.accom_link {
+    /* background-color: lime; */
+}.act_link {
+    /* background-color: brown; */
 }
 input[type=text] {
     padding-left: 10px;
@@ -27,11 +42,12 @@ sub {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0;
     /* justify-content: space-between; */
-    padding-top: 2%;
+    /* padding-top: 2%; */
 }
-.nav, .section {
-    margin: 0 5%;
+.nav, .section, .child_nav {
+    /* padding: 0 10px; */
 }
 .d_shadow {
     box-shadow: 1px 5px 8px #888888;
@@ -41,8 +57,9 @@ sub {
     transform: scale(1.05);
 }
 .child_nav {
+    /* width: 100%; */
     display: flex;
-    /* flex-direction: row; */
+    /* background-color: yellow; */
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -455,23 +472,35 @@ ul {
 @media (max-width: 550px) {
 
     /* DIV ORDER */
-    .accomodation_at_that_location {
-        /* margin-left: auto; margin-right: auto; */
-    }
-    
+
     .accomodations_result_parent .accomodation_at_that_location {
         /* background-color: violet; */
         order: 1;
-    }
-    .accomodations_result_parent .most_popular {
-        /* background-color: teal; */
     }
 
     .main {
         padding-top: 0;
     }
     .child_nav {
+        /* width: 100%; */
         justify-content: center;
+        /* align-items: center; */
+        /* margin: 0; */
+    }
+    .accom_link, .act_link {
+        text-align: center;
+        width: 100%;
+    }
+    .accom_link a, .act_link a {
+        padding-bottom: 10px;
+        border-bottom-color: rgb(235, 235, 235);
+        border-bottom-style: solid ;
+        border-bottom-width: 2px;
+        /* border: 5px solid red; */
+    }
+    .nav_link {
+        margin: 0;
+        width: 100%;
     }
     .act_change_height_mob {
         max-height: 180px; 
