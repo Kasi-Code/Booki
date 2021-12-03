@@ -19,7 +19,7 @@ ul {
     /* padding-top: 2%; */
 }
 .main_margin {
-    padding: 0 40px;
+    padding: 0 2rem;
     margin: 0;
     /* background-color: salmon; */
 }
@@ -187,7 +187,8 @@ sub {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* gap: 3em 3em; */
+    /* justify-content: space-evenly; */
 }
 .price_for_room {
     color: black;
@@ -198,29 +199,31 @@ sub {
     flex-wrap: wrap;
     /* width: 100%; */
     /* background-color: yellow; */
+    gap: 2em 2em;
 }
 .accomodation_at_that_location {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     padding: 30px;
     /* max-width: 80vh; */
     width: 60%;
     background-color: rgb(235, 235, 235);
     border-radius: 20px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    gap: 1em 1em;
 }
 .image_result {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
     /* background-color: yellowgreen; */
+    gap: 1em 1.7em;
 }
 .result {
     width: 230px;
     height: 190px;
     background-color: white;
-    margin: 10px;
     border: white;
     border-style: solid;
     border-width: 4px;
@@ -229,7 +232,6 @@ sub {
     display: flex;
     flex-direction: column-reverse;
     /* justify-content: space-between; */
-    flex-grow: 1;
 }
 .thumbnail_accom_info {
     background-color: white;
@@ -243,25 +245,25 @@ sub {
 .result_1 {
     /* background-color: violet; */
     background-image: url("/booki_resources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .result_2 {
     /* background-color: violet; */
     background-image: url("/booki_resources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .result_3 {
     /* background-color: violet; */
     background-image: url("/booki_resources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .result_4 {
@@ -269,23 +271,23 @@ sub {
     background-image: url("/booki_resources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .result_5 {
     /* background-color: violet; */
     background-image: url("/booki_resources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .result_6 {
     /* background-color: violet; */
     background-image: url("/booki_resources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-position: 0 -150px;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* background-origin: content-box, padding-box; */
 }
 .star_parent {
@@ -301,54 +303,55 @@ sub {
 .most_popular {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
+    gap: 1em 1em;
+    /* justify-content: space-evenly; */
+    padding: 30px;
     background-color: rgb(235, 235, 235);
     border-radius: 20px;
 }
 .most_popular_title {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
-    margin: 0; padding: 0;
+    /* margin: 0; padding: 0; */
 }
 .most_pop_logo {
     height: 15px;
 }
 .most_pop_result {
+    display: flex;
+    flex-direction: row-reverse;
     min-width: 200px; 
     height: 140px;
     background-color: white;
     /* margin-left: auto; margin-right: auto; */
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 20px;
     /* flex-grow: 1; */
     border: white;
     border-style: solid;
     border-width: 4px;
-    display: flex;
-    flex-direction: row-reverse;
 }
 #most_pop_result_1 {
     background-image: url("/booki_resources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    /* background-position: -60px 0; */
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 #most_pop_result_2 {
     background-image: url("/booki_resources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-position: -30px 0;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 #most_pop_result_3 {
     background-image: url("/booki_resources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    background-position: 0 -40px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: cover;
 
 }
 .thumbnail_most_pop_info {
@@ -368,13 +371,16 @@ sub {
     /* background-color: teal; */
     border-radius: 20px;
     /* padding: 20px; */
+    gap: 1em 1em;
 }
 .activities_result {
+    /* padding: 0; margin: 0; */
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
     /* align-items: center; */
     flex-wrap: wrap;
+    gap: 1.7em 1.7em;
 }
 .act_result, .act_result_sub {
     display: flex;
@@ -383,7 +389,8 @@ sub {
 .act_result {
     height: 400px; 
     width: 160px;
-    margin: 20px;
+    gap: 1.7em 1.7em;
+    /* margin: 20px; */
     /* background-color: tomato; */
     border-radius: 20px;
     /* margin-left: auto; margin-right: auto; */
@@ -402,7 +409,7 @@ sub {
 }
 .pomegues_fort, .notre_d_d_la_ga {
     height: 55%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .frioul_island, .long_park {
     height: 35%;
@@ -420,39 +427,39 @@ sub {
 }
 .old_port {
     background-image: url("/booki_resources/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-position: 0 0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .pomegues_fort {
     background-image: url("/booki_resources/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-position: 0 -90px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .frioul_island {
     background-image: url("/booki_resources/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-position: 0 0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .cal_nat_park {
     background-image: url("/booki_resources/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-position: -60px 0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .notre_d_d_la_ga {
     background-image: url("/booki_resources/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-position: 0 0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .long_park {
     background-image: url("/booki_resources/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    background-position: 0 -30px;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -463,12 +470,12 @@ sub {
     /* align-items: center; */
     flex-wrap: wrap;
     background-color: rgb(235, 235, 235);
-    padding: 30px 40px;
+    padding: 30px 2rem;
 }
 .each_footer {
-    width: 200px;
+    /* width: 200px; */
     /* background-color: green; */
-    margin: 5px 10px;
+    /* margin: 5px 10px; */
 }
 
 /* SCREEN SIZING */
@@ -487,7 +494,7 @@ sub {
 
     /* DIV ORDER */
 
-    .accomodations_result_parent .accomodation_at_that_location {
+    .accomodation_at_that_location {
         /* background-color: violet; */
         order: 1;
     }
@@ -495,7 +502,7 @@ sub {
         padding: 0;
     }
     .nav, .accomodation_at_that_location, .activities_at_that_location {
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
     .top_nav {
         /* background-color: honeydew; */
@@ -532,8 +539,19 @@ sub {
         margin: 0;
         width: 100%;
     }
+    .nav, .accomodation_at_that_location, .activities_at_that_location {
+        padding: 0 20px;
+    }
+    .most_popular {
+        border-radius: 0;
+        padding: 20px 20px;
+    }
     .footer_parent {
         padding: 30px 20px;
+        flex-direction: column;
+    }
+    .each_footer {
+        margin-bottom: 25px;
     }
     .act_change_height_mob {
         max-height: 180px; 
