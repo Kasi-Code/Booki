@@ -21,6 +21,7 @@ ul {
 .main_margin {
     padding: 0 2rem;
     margin: 0;
+    margin-bottom: 30px;
     /* background-color: salmon; */
 }
 .logo {
@@ -39,6 +40,10 @@ a:visited {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
 }
 .nav_link {
     padding: 0;
@@ -80,9 +85,6 @@ a:hover {
 }
 .act_link {
     /* background-color: brown; */
-}
-.nav_link ul li {
-    /* margin: 0 50px; */
 }
 input[type=text] {
     padding-left: 10px;
@@ -187,6 +189,7 @@ sub {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 30px;
     /* gap: 3em 3em; */
     /* justify-content: space-evenly; */
 }
@@ -380,7 +383,7 @@ sub {
     /* justify-content: space-between; */
     /* align-items: center; */
     flex-wrap: wrap;
-    gap: 1.7em 1.7em;
+    gap: 2em;
 }
 .act_result, .act_result_sub {
     display: flex;
@@ -400,6 +403,8 @@ sub {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
+    gap: 2em;
 }
 .act_result_sub {
     /* background-color: wheat; */
@@ -501,9 +506,6 @@ sub {
     .main_margin {
         padding: 0;
     }
-    .nav, .accomodation_at_that_location, .activities_at_that_location {
-        /* padding: 0 20px; */
-    }
     .top_nav {
         /* background-color: honeydew; */
         padding: 0;
@@ -545,6 +547,9 @@ sub {
     .most_popular {
         border-radius: 0;
         padding: 20px 20px;
+    }
+    .activities_result {
+        gap: 1em;
     }
     .footer_parent {
         padding: 30px 20px;
