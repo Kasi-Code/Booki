@@ -6,6 +6,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.gap {
+    gap: 25px;
+}
 ul {
     list-style-type: none;
     line-height: 1.5;
@@ -202,7 +214,7 @@ sub {
     flex-wrap: wrap;
     /* width: 100%; */
     /* background-color: yellow; */
-    gap: 2em 2em;
+    /* gap: 2em 2em; */
 }
 .accomodation_at_that_location {
     display: flex;
@@ -214,14 +226,14 @@ sub {
     background-color: rgb(235, 235, 235);
     border-radius: 20px;
     /* margin-right: 10px; */
-    gap: 1em 1em;
+    /* gap: 1em 1em; */
 }
 .image_result {
     display: flex;
     /* justify-content: space-around; */
     flex-wrap: wrap;
     /* background-color: yellowgreen; */
-    gap: 1em 1.7em;
+    /* gap: 1em 1.7em; */
 }
 .result {
     width: 230px;
@@ -306,7 +318,7 @@ sub {
 .most_popular {
     display: flex;
     flex-direction: column;
-    gap: 1em 1em;
+    /* gap: 1em 1em; */
     /* justify-content: space-evenly; */
     padding: 30px;
     background-color: rgb(235, 235, 235);
@@ -371,19 +383,16 @@ sub {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* background-color: teal; */
     border-radius: 20px;
     /* padding: 20px; */
-    gap: 1em 1em;
+    /* gap: 1em 1em; */
 }
 .activities_result {
-    /* padding: 0; margin: 0; */
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     flex-wrap: wrap;
-    gap: 2em;
 }
 .act_result, .act_result_sub {
     display: flex;
@@ -391,8 +400,7 @@ sub {
 }
 .act_result {
     height: 400px; 
-    width: 160px;
-    gap: 1.7em 1.7em;
+    /* gap: 1.7em 1.7em; */
     /* margin: 20px; */
     /* background-color: tomato; */
     border-radius: 20px;
@@ -401,13 +409,16 @@ sub {
 }
 .act_divider {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-grow: 1;
-    gap: 2em;
+    /* width: 100%; */
+    /* gap: 2em; */
 }
 .act_result_sub {
     /* background-color: wheat; */
+    /* width: 100%; */
     margin: 0;
     border-radius: 20px;
     flex-grow: 1;
@@ -549,7 +560,7 @@ sub {
         padding: 20px 20px;
     }
     .activities_result {
-        gap: 1em;
+        flex-direction: column;
     }
     .footer_parent {
         padding: 30px 20px;
@@ -560,6 +571,6 @@ sub {
     }
     .act_change_height_mob {
         max-height: 180px; 
-        width: 315px;
+        /* width: 315px; */
     }
 }
