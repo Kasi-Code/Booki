@@ -361,6 +361,7 @@ sub {
 }
 .act_result {
     height: 400px; 
+    width: 20%;
     border-radius: 20px;
     margin: 0;
     flex-grow: 1;
@@ -447,6 +448,13 @@ sub {
         padding: 0;
         background-color: white;
     }
+    .act_result {
+        width: 100%;
+    }
+    .act_change_height_mob {
+        max-height: 180px; 
+        /* width: 315px; */
+    }
 }
 
 /* MOBILE SCREEN SIZING */
@@ -507,15 +515,14 @@ sub {
     .activities_result {
         flex-direction: column;
     }
+    .act_result {
+        width: 100%;
+    }
     .footer_parent {
         padding: 30px 20px;
         flex-direction: column;
     }
     .each_footer {
         margin-bottom: 25px;
-    }
-    .act_change_height_mob {
-        max-height: 180px; 
-        /* width: 315px; */
     }
 }
