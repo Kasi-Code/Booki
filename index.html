@@ -7,27 +7,28 @@
     <title>Booki</title>
 
     <link rel="stylesheet" href="./CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main column">
 
         <div class="main_margin">
 
-            <nav class="top_nav row">
+            <header class="top_nav row">
                 <div class="logo_img">
                     <img class="logo" src="./booki_resources/images/logo/Booki.png" alt="booki_logo">
                 </div>
                 <div class="nav_link">
                     <ul class="menu">
                         <li class="menu_item accom_link">
-                            <a class="menu_link" href="">Accommodations</a>
+                            <a class="menu_link" href="#accomodation_at_that_location">Accommodations</a>
                         </li>
                         <li class="menu_item act_link">
-                            <a class="menu_link" href="">Activities</a>
+                            <a class="menu_link" href="#activities_at_that_location">Activities</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </header>
 
             <nav class="nav column">
                 <div class="search">
@@ -65,33 +66,113 @@
                     <div class="i_detail small_grey_text">More than <span>500</span> accommodations are available in this city</div>
                 </div>
             </nav>
+
+            <main>
                 
-            <section class="section row">
-                <div class="accomodations_result_parent accommodation_result row gap">
-                    <!-- MAIN RESULT -->
-            
-                    <div class="accomodation_at_that_location column gap" id="accomodation_at_that_location">
-                        <div class="accommodation_title">
-                            <h4>Accommodations in <span>Marseille</span></h4>
+                <section class="section row">
+                    <div class="accomodations_result_parent accommodation_result row gap">
+                        <!-- MAIN RESULT -->
+                
+                        <div class="accomodation_at_that_location column gap" id="accomodation_at_that_location">
+                            <div class="accommodation_title">
+                                <h4>Accommodations in <span>Marseille</span></h4>
+                            </div>
+                            <div class="image_result row gap">
+                                <div class="result result_1 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Auberge la Cannebière</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>5€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result result_2 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Hôtel du port</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>5</sub>2€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result result_3 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Les mouettes Hotel</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>7</sub>6€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result result_4 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Hôtel de la mer</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>4</sub>6€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result result_5 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Auberge Le Panier</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>3€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result result_6 d_shadow hover_zoom">
+                                    <div class="thumbnail_accom_info">
+                                        <h5>Hôtel chez Amina</h5>
+                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
+                                        <div class="star_parent">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                            <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p><a href="">Show more</a></p>
                         </div>
-                        <div class="image_result row gap">
-                            <div class="result result_1 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Auberge la Cannebière</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>5€</span></p>
-                                    <div class="star_parent">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                    </div>
+        
+                        <!-- MOST POPULAR -->
+                
+                        <div class="most_popular accommodation_result gap" id="most_popular">
+                            <div class="most_popular_title row">
+                                <h4>Most Popular</h4>
+                                <div class="most_pop_icon">
+                                    <img class="most_pop_logo" src="./booki_resources/images/most_pop_logo.png" alt="compare logo">
                                 </div>
                             </div>
-                            <div class="result result_2 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Hôtel du port</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>5</sub>2€</span></p>
+                            <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_1">
+                                <div class="thumbnail_most_pop_info">
+                                    <h5>Moring Sun Hotel</h5>
+                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>1</sub>28€</span></p>
                                     <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -101,176 +182,100 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="result result_3 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Les mouettes Hotel</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>7</sub>6€</span></p>
-                                    <div class="star_parent">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="result result_4 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Hôtel de la mer</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>4</sub>6€</span></p>
-                                    <div class="star_parent">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="result result_5 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Auberge Le Panier</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>3€</span></p>
-                                    <div class="star_parent">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="result result_6 d_shadow hover_zoom">
-                                <div class="thumbnail_accom_info">
-                                    <h5>Hôtel chez Amina</h5>
+                            <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_2">
+                                <div class="thumbnail_most_pop_info">
+                                    <h5>Au coeur de l'eau Bed and Breakfast</h5>
                                     <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
                                     <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_3">
+                                <div class="thumbnail_most_pop_info">
+                                    <h5>Tout bleu Blanc Hotel</h5>
+                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>6</sub>8€</span></p>
+                                    <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        <img class="star" src="./booki_resources/images/star.png" alt="rating star">
+                                        <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p><a href="">Show more</a></p>
+                        
                     </div>
-    
-                    <!-- MOST POPULAR -->
+                </section>
+        
+                <!-- ACTIVITIES -->
+        
+                <div class="activities_at_that_location column gap" id="activities_at_that_location">
+                    <h4>Activities in Marseille</h4>
+                    <div class="activities_result row gap">
+                        <div class="act_result old_port d_shadow hover_zoom act_change_height_mob">
+                            <h5 class="act_info">Old Port</h5>
+                        </div>
+                        <div class="act_result act_divider column gap">
+                            <div class="act_result_sub pomegues_fort d_shadow hover_zoom act_change_height_mob">
+                                <h5 class="act_info">Pomègues Fort</h5>
+                            </div>
+                            <div class="act_result_sub frioul_island d_shadow hover_zoom act_change_height_mob">
+                                <h5 class="act_info">Frioul Island</h5>
+                            </div>
+                        </div>
+                        <div class="act_result cal_nat_park d_shadow hover_zoom act_change_height_mob">
+                            <h5 class="act_info">Calanques National Park</h5>
+                        </div>
+                        <div class="act_result act_divider column gap">
+                            <div class="act_result_sub notre_d_d_la_ga d_shadow hover_zoom act_change_height_mob">
+                                <h5 class="act_info">Notre-Dame-de-la-Garde</h5>
+                            </div>
+                            <div class="act_result_sub long_park d_shadow hover_zoom act_change_height_mob">
+                                <h5 class="act_info">Longchamp Park</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             
-                    <div class="most_popular accommodation_result gap" id="most_popular">
-                        <div class="most_popular_title row">
-                            <h4>Most Popular</h4>
-                            <div class="most_pop_icon">
-                                <img class="most_pop_logo" src="./booki_resources/images/most_pop_logo.png" alt="compare logo">
-                            </div>
-                        </div>
-                        <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_1">
-                            <div class="thumbnail_most_pop_info">
-                                <h5>Moring Sun Hotel</h5>
-                                <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>1</sub>28€</span></p>
-                                <div class="star_parent">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_2">
-                            <div class="thumbnail_most_pop_info">
-                                <h5>Au coeur de l'eau Bed and Breakfast</h5>
-                                <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
-                                <div class="star_parent">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_3">
-                            <div class="thumbnail_most_pop_info">
-                                <h5>Tout bleu Blanc Hotel</h5>
-                                <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>6</sub>8€</span></p>
-                                <div class="star_parent">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star.png" alt="rating star">
-                                    <img class="star" src="./booki_resources/images/star_grey.png" alt="rating star">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-    
-            <!-- ACTIVITIES -->
-    
-            <div class="activities_at_that_location column gap" id="activities_at_that_location">
-                <h4>Activities in Marseille</h4>
-                <div class="activities_result row gap">
-                    <div class="act_result old_port d_shadow hover_zoom act_change_height_mob">
-                        <h5 class="act_info">Old Port</h5>
-                    </div>
-                    <div class="act_result act_divider column gap">
-                        <div class="act_result_sub pomegues_fort d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Pomègues Fort</h5>
-                        </div>
-                        <div class="act_result_sub frioul_island d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Frioul Island</h5>
-                        </div>
-                    </div>
-                    <div class="act_result cal_nat_park d_shadow hover_zoom act_change_height_mob">
-                        <h5 class="act_info">Calanques National Park</h5>
-                    </div>
-                    <div class="act_result act_divider column gap">
-                        <div class="act_result_sub notre_d_d_la_ga d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Notre-Dame-de-la-Garde</h5>
-                        </div>
-                        <div class="act_result_sub long_park d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Longchamp Park</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </main>
 
         </div>
 
-        <!-- FOOTER -->
-
-        <footer>
-            <div class="footer_parent row">
-                <div class="about each_footer">
-                    <ul>
-                        <li><h4>About</h4></li>
-                        <li><a href="">Site Map</a></li>
-                        <li><a href="">General Terms and Conditions</a></li>
-                        <li><a href="">Data and Privacy</a></li>
-                    </ul>
-                </div>
-                <div class="our_accommodation each_footer">
-                    <ul>
-                        <li><h4>Our Accommodations</h4></li>
-                        <li><a href="">Quality Assessment</a></li>
-                        <li><a href="">You have a hotel?</a></li>
-                    </ul>
-                </div>
-                <div class="assistance each_footer">
-                    <ul>
-                        <li><h4>Assessment</h4></li>
-                        <li><a href="">Help Desk</a></li>
-                        <li><a href="">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-
     </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer_parent row">
+            <div class="about each_footer">
+                <ul>
+                    <li><h4>About</h4></li>
+                    <li><a href="">Site Map</a></li>
+                    <li><a href="">General Terms and Conditions</a></li>
+                    <li><a href="">Data and Privacy</a></li>
+                </ul>
+            </div>
+            <div class="our_accommodation each_footer">
+                <ul>
+                    <li><h4>Our Accommodations</h4></li>
+                    <li><a href="">Quality Assessment</a></li>
+                    <li><a href="">You have a hotel?</a></li>
+                </ul>
+            </div>
+            <div class="assistance each_footer">
+                <ul>
+                    <li><h4>Assessment</h4></li>
+                    <li><a href="">Help Desk</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
