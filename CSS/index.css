@@ -365,7 +365,7 @@ i {
 .activities_result {
     flex-wrap: wrap;
 }
-.act_result, .act_result_sub {
+.act_result_rev, .act_result_sub {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -373,26 +373,22 @@ i {
     height: 445px; 
     width: 20%;
     border-radius: 20px;
-    margin: 0;
+    /* margin: 0; */
     flex-grow: 1;
 }
 .act_divider {
     flex-wrap: wrap;
-    flex-grow: 1;
-    /* width: 100%; */
-    /* gap: 2em; */
 }
 .act_result_sub {
     margin: 0;
     border-radius: 20px;
     flex-grow: 1;
 }
-.pomegues_fort, .notre_d_d_la_ga {
-    height: 55%;
-    /* margin-bottom: 20px; */
+.pomegues_fort, .long_park {
+    height: 40%;
 }
-.frioul_island, .long_park {
-    height: 35%;
+.long_park {
+    height: 25%;
 }
 #accomodation_at_that_location {
     flex-grow: 1;
@@ -402,7 +398,6 @@ i {
 }
 .act_info {
     background-color: white;
-    /* height: 55px; */
     padding: 20px;
     border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
 }
@@ -459,16 +454,16 @@ footer {
 
 @media (max-width: 992px) {
     .accomodation_at_that_location {
-        margin-right: 0;
-        padding: 0;
         background-color: white;
+        order: 1;
     }
     .act_result {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .act_change_height_mob {
         max-height: 180px; 
-        /* width: 315px; */
     }
 }
 
@@ -481,10 +476,6 @@ footer {
     .logo {
         margin: 0;
         padding: 0;
-    }
-    .accomodation_at_that_location {
-        /* background-color: violet; */
-        order: 1;
     }
     .main_margin {
         padding: 0;
@@ -534,12 +525,6 @@ footer {
     .most_popular {
         border-radius: 0;
         padding: 20px 20px;
-    }
-    .activities_result {
-        flex-direction: column;
-    }
-    .act_result {
-        width: 100%;
     }
     .footer_parent {
         padding: 30px 20px;
