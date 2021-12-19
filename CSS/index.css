@@ -94,6 +94,7 @@ sub {
     align-items: center;
 }
 .map_marker {
+    font-size: 20px;
     margin: 10px;
 }
 .search p, div {
@@ -153,9 +154,10 @@ sub {
     font-weight: bold;
 }
 .filter_logo {
+    font-size: 20px;
     background-color: #DEEBFF;
     color: #0065FC;
-    padding: 15px;
+    padding: 14px;
     height: 50px;
     width: 50px;
     border-radius: 56%;
@@ -177,6 +179,9 @@ sub {
 .price_for_room {
     color: black;
     font-weight: bold;
+}
+.accommodation_title {
+    padding: 0; margin: 0;
 }
 .accomodations_result_parent {
     flex-wrap: wrap;
@@ -285,10 +290,11 @@ sub {
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
-    /* margin: 0; padding: 0; */
+    margin: 0; padding: 0;
 }
 .most_pop_logo {
-    height: 15px;
+    padding: 0; margin: 0;
+    /* height: 15px; */
 }
 .most_pop_result {
     display: flex;
@@ -461,6 +467,7 @@ footer {
 
 @media (max-width: 992px) {
     .accomodation_at_that_location {
+        padding: 0;
         background-color: white;
         order: 1;
     }
@@ -508,7 +515,8 @@ footer {
         border-bottom-color: #F2F2F2;
         border-bottom-style: solid ;
         border-bottom-width: 2px;
-        padding-top: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     .accom_link a:hover, .act_link a:hover {
         border-top-color: none;
