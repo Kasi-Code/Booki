@@ -16,7 +16,16 @@ body {
     flex-direction: row;
 }
 .gap {
-    gap: 25px;
+    gap: 20px;
+}
+.bold_text {
+    font-size: 15px;
+}
+.meduim_text {
+    font-size: 13px;
+}
+.small_text {
+    font-size: 12px;
 }
 ul {
     list-style-type: none;
@@ -32,9 +41,6 @@ ul {
     margin-bottom: 30px;
     /* background-color: salmon; */
 }
-.logo {
-    height: 40px;
-}
 a:link {
     text-decoration: none;
 }
@@ -42,9 +48,16 @@ a:visited {
     color: black;
 }
 .top_nav {
+    /* display: flex; */
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
+    /* background-color: blueviolet; */
+}
+.logo {
+    height: 40px;
+    margin-top: 60px;
+    /* padding-top: 10px; */
 }
 .nav_link {
     padding: 0;
@@ -75,7 +88,7 @@ a:hover {
 }
 .menu_link {
 	display: block;
-	padding: 15px 0;
+    padding-top: 50px;
 	text-align: center;
     border-top-color: #F2F2F2;
     border-top-style: solid ;
@@ -97,8 +110,8 @@ sub {
     transform: scale(1.05);
 }
 .location_pin_logo_div {
-    /* height: 30px;  */
-    /* width: 30px; */
+    height: 50px; 
+    width: 50px;
     padding: 10px;
     background-color: #F2F2F2;
     border-top-left-radius: 15px; border-bottom-left-radius: 15px;
@@ -112,14 +125,14 @@ sub {
 }
 .small_grey_text {
     color: #747474;
-    font-size: small;
 }
 .search_input {
     align-items: center;
     margin-top: 10px;
 }
 .input {
-    height: 44px;
+    height: 50px;
+    width: 235px;
     border: #F2F2F2;
     border-style: solid;
     border-width: 1px;
@@ -127,7 +140,8 @@ sub {
 .search_button {
     font-family: 'Raleway', sans-serif;
     color: white;
-    height: 44px;
+    height: 50px;
+    width: 94px;
     background-color: #0065FC;
     border-style: none;
     border-top-right-radius: 15px; border-bottom-right-radius: 15px;
@@ -162,9 +176,12 @@ sub {
     margin: 0 10px;
     font-weight: bold;
 }
+i {
+    margin: 5px;
+}
 .filter_logo {
     background-color: #DEEBFF;
-    padding: 5px;
+    /* padding: 5px; */
     border-radius: 50%;
     height: 35px;
 }
@@ -179,8 +196,7 @@ sub {
 .section {
     flex-wrap: wrap;
     margin-bottom: 30px;
-    /* gap: 3em 3em; */
-    /* justify-content: space-evenly; */
+    /* height: 625px; */
 }
 .price_for_room {
     color: black;
@@ -190,7 +206,7 @@ sub {
     flex-wrap: wrap;
 }
 .accomodation_at_that_location {
-    padding: 30px;
+    padding: 40px;
     /* max-width: 80vh; */
     width: 60%;
     background-color: #F2F2F2;
@@ -201,8 +217,8 @@ sub {
     flex-wrap: wrap;
 }
 .result {
-    width: 230px;
-    height: 190px;
+    width: 30%;
+    height: 200px;
     background-color: white;
     border: white;
     border-style: solid;
@@ -283,7 +299,7 @@ sub {
 .most_popular {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin: 0;
@@ -300,8 +316,8 @@ sub {
 .most_pop_result {
     display: flex;
     flex-direction: row-reverse;
-    min-width: 200px; 
-    height: 140px;
+    /* min-width: 200px;  */
+    height: 145px;
     background-color: white;
     /* margin-left: auto; margin-right: auto; */
     /* margin: 10px; */
@@ -354,7 +370,7 @@ sub {
     flex-direction: column-reverse;
 }
 .act_result {
-    height: 400px; 
+    height: 445px; 
     width: 20%;
     border-radius: 20px;
     margin: 0;
@@ -386,7 +402,8 @@ sub {
 }
 .act_info {
     background-color: white;
-    padding: 15px;
+    /* height: 55px; */
+    padding: 20px;
     border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
 }
 .old_port {
@@ -461,6 +478,10 @@ footer {
 
     /* DIV ORDER */
 
+    .logo {
+        margin: 0;
+        padding: 0;
+    }
     .accomodation_at_that_location {
         /* background-color: violet; */
         order: 1;
@@ -489,6 +510,7 @@ footer {
         border-bottom-color: #F2F2F2;
         border-bottom-style: solid ;
         border-bottom-width: 2px;
+        padding-top: 40px;
     }
     .accom_link a:hover, .act_link a:hover {
         border-top-color: none;
@@ -501,6 +523,9 @@ footer {
     .nav_link {
         /* background-color: magenta; */
         margin: 0;
+        width: 100%;
+    }
+    .result {
         width: 100%;
     }
     .nav, .accomodation_at_that_location, .activities_at_that_location {

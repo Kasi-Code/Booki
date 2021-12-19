@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./CSS/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/43e5f28280.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main column">
@@ -21,10 +23,10 @@
                 <div class="nav_link">
                     <ul class="menu">
                         <li class="menu_item accom_link">
-                            <a class="menu_link" href="#accomodation_at_that_location">Accommodations</a>
+                            <a class="menu_link bold_text" href="#accomodation_at_that_location">Accommodations</a>
                         </li>
                         <li class="menu_item act_link">
-                            <a class="menu_link" href="#activities_at_that_location">Activities</a>
+                            <a class="menu_link bold_text" href="#activities_at_that_location">Activities</a>
                         </li>
                     </ul>
                 </div>
@@ -32,38 +34,44 @@
 
             <nav class="nav column">
                 <div class="search">
-                    <h4>Find a palce for your dream vacation</h4>
-                    <p class="small_grey_text">Downtown in our nature</p>
+                    <h4 class="bold_text">Find a palce for your dream vacation</h4>
+                    <p class="small_grey_text small_text">Downtown in our nature</p>
                     <div class="search_input row">
-                        <div class="location_pin_logo_div">
-                            <img class="location_pin_logo" src="./booki_resources/images/location-pin.png" alt="logo of location pin">
+                        <div class="location_pin_logo_div"> 
+                            <span class="filter_logo">
+                              <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            <!-- <img class="location_pin_logo" src="./booki_resources/images/location-pin.png" alt="logo of location pin"> -->
                         </div>
-                        <input class="input" type="text" placeholder="Search location..." value="Marseillie, France">
-                        <button class="search_button">Search</button>
+                        <input class="input bold_text" type="text" placeholder="Search location..." value="Marseillie, France">
+                        <button class="search_button bold_text">Search</button>
                     </div>
                 </div>
                 <div class="filters row">
-                    <h4 class="filter_h">Filters</h4>
+                    <h4 class="filter_h bold_text">Filters</h4>
                     <div class="cost span_parent">
-                        <img class="filter_logo" src="./booki_resources/images/note_icon.png" alt="note icon">
-                        <a href=""><span class="filter_text">Low cost</span></a>
+                          <span class="filter_logo">
+                            <i class="fas fa-money-bill"></i>
+                          </span>
+                        <!-- <img class="filter_logo" src="./booki_resources/images/note_icon.png" alt="note icon"> -->
+                        <a href=""><span class="filter_text bold_text">Low cost</span></a>
                     </div>
                     <div class="fam_friend span_parent">
                         <img class="filter_logo" src="./booki_resources/images/human.png" alt="human icon">
-                        <a href=""><span class="filter_text">Family-Friends</span></a>
+                        <a href=""><span class="filter_text bold_text">Family-Friends</span></a>
                     </div>
                     <div class="romantic span_parent">
                         <img class="filter_logo" src="./booki_resources/images/heart.png" alt="heart icon">
-                        <a href=""><span class="filter_text">Romantic</span></a>
+                        <a href=""><span class="filter_text bold_text">Romantic</span></a>
                     </div>
                     <div class="pet span_parent">
                         <img class="filter_logo" src="./booki_resources/images/dog.png" alt="dog icon">
-                        <a href=""><span class="filter_text">Pet allowed</span></a>
+                        <a href=""><span class="filter_text bold_text">Pet allowed</span></a>
                     </div>
                 </div>
                 <div class="quantity_result row">
                     <div class="i_icon">i</div>
-                    <div class="i_detail small_grey_text">More than <span>500</span> accommodations are available in this city</div>
+                    <div class="i_detail small_grey_text small_text">More than <span>500</span> accommodations are available in this city</div>
                 </div>
             </nav>
 
@@ -74,14 +82,14 @@
                         <!-- MAIN RESULT -->
                 
                         <div class="accomodation_at_that_location column gap" id="accomodation_at_that_location">
-                            <div class="accommodation_title">
+                            <div class="accommodation_title bold_text">
                                 <h4>Accommodations in <span>Marseille</span></h4>
                             </div>
                             <div class="image_result row gap">
                                 <div class="result result_1 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Auberge la Cannebière</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>5€</span></p>
+                                        <h5 class="meduim_text">Auberge la Cannebière</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>2</sub>5€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -93,8 +101,8 @@
                                 </div>
                                 <div class="result result_2 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Hôtel du port</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>5</sub>2€</span></p>
+                                        <h5 class="meduim_text">Hôtel du port</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>5</sub>2€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -106,8 +114,8 @@
                                 </div>
                                 <div class="result result_3 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Les mouettes Hotel</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>7</sub>6€</span></p>
+                                        <h5 class="meduim_text">Les mouettes Hotel</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>7</sub>6€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -119,8 +127,8 @@
                                 </div>
                                 <div class="result result_4 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Hôtel de la mer</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>4</sub>6€</span></p>
+                                        <h5 class="meduim_text">Hôtel de la mer</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>4</sub>6€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -132,8 +140,8 @@
                                 </div>
                                 <div class="result result_5 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Auberge Le Panier</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>2</sub>3€</span></p>
+                                        <h5 class="meduim_text">Auberge Le Panier</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>2</sub>3€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -145,8 +153,8 @@
                                 </div>
                                 <div class="result result_6 d_shadow hover_zoom">
                                     <div class="thumbnail_accom_info">
-                                        <h5>Hôtel chez Amina</h5>
-                                        <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
+                                        <h5 class="meduim_text">Hôtel chez Amina</h5>
+                                        <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
                                         <div class="star_parent">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                             <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -157,13 +165,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <p><a href="">Show more</a></p>
+                            <p class="meduim_text"><a href="">Show more</a></p>
                         </div>
         
                         <!-- MOST POPULAR -->
                 
                         <div class="most_popular accommodation_result gap" id="most_popular">
-                            <div class="most_popular_title row">
+                            <div class="most_popular_title row bold_text">
                                 <h4>Most Popular</h4>
                                 <div class="most_pop_icon">
                                     <img class="most_pop_logo" src="./booki_resources/images/most_pop_logo.png" alt="compare logo">
@@ -172,7 +180,7 @@
                             <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_1">
                                 <div class="thumbnail_most_pop_info">
                                     <h5>Moring Sun Hotel</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>1</sub>28€</span></p>
+                                    <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>1</sub>28€</span></p>
                                     <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -185,7 +193,7 @@
                             <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_2">
                                 <div class="thumbnail_most_pop_info">
                                     <h5>Au coeur de l'eau Bed and Breakfast</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
+                                    <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>9</sub>6€</span></p>
                                     <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -198,7 +206,7 @@
                             <div class="most_pop_result d_shadow hover_zoom" id="most_pop_result_3">
                                 <div class="thumbnail_most_pop_info">
                                     <h5>Tout bleu Blanc Hotel</h5>
-                                    <p class="small_grey_text">Night starting at <span class="price_for_room"><sub>6</sub>8€</span></p>
+                                    <p class="small_grey_text small_text">Night starting at <span class="price_for_room"><sub>6</sub>8€</span></p>
                                     <div class="star_parent">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
                                         <img class="star" src="./booki_resources/images/star.png" alt="rating star">
@@ -216,28 +224,28 @@
                 <!-- ACTIVITIES -->
         
                 <div class="activities_at_that_location column gap" id="activities_at_that_location">
-                    <h4>Activities in Marseille</h4>
+                    <h4 class="bold_text">Activities in Marseille</h4>
                     <div class="activities_result row gap">
                         <div class="act_result old_port d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Old Port</h5>
+                            <h5 class="act_info meduim_text">Old Port</h5>
                         </div>
                         <div class="act_result act_divider column gap">
                             <div class="act_result_sub pomegues_fort d_shadow hover_zoom act_change_height_mob">
-                                <h5 class="act_info">Pomègues Fort</h5>
+                                <h5 class="act_info meduim_text">Pomègues Fort</h5>
                             </div>
                             <div class="act_result_sub frioul_island d_shadow hover_zoom act_change_height_mob">
-                                <h5 class="act_info">Frioul Island</h5>
+                                <h5 class="act_info meduim_text">Frioul Island</h5>
                             </div>
                         </div>
                         <div class="act_result cal_nat_park d_shadow hover_zoom act_change_height_mob">
-                            <h5 class="act_info">Calanques National Park</h5>
+                            <h5 class="act_info meduim_text">Calanques National Park</h5>
                         </div>
                         <div class="act_result act_divider column gap">
                             <div class="act_result_sub notre_d_d_la_ga d_shadow hover_zoom act_change_height_mob">
-                                <h5 class="act_info">Notre-Dame-de-la-Garde</h5>
+                                <h5 class="act_info meduim_text">Notre-Dame-de-la-Garde</h5>
                             </div>
                             <div class="act_result_sub long_park d_shadow hover_zoom act_change_height_mob">
-                                <h5 class="act_info">Longchamp Park</h5>
+                                <h5 class="act_info meduim_text">Longchamp Park</h5>
                             </div>
                         </div>
                     </div>
@@ -255,24 +263,24 @@
         <div class="footer_parent row">
             <div class="about each_footer">
                 <ul>
-                    <li><h4>About</h4></li>
-                    <li><a href="">Site Map</a></li>
-                    <li><a href="">General Terms and Conditions</a></li>
-                    <li><a href="">Data and Privacy</a></li>
+                    <li><h4 class="bold_text">About</h4></li>
+                    <li><a class="meduim_text" href="">Site Map</a></li>
+                    <li><a class="meduim_text" href="">General Terms and Conditions</a></li>
+                    <li><a class="meduim_text" href="">Data and Privacy</a></li>
                 </ul>
             </div>
             <div class="our_accommodation each_footer">
                 <ul>
-                    <li><h4>Our Accommodations</h4></li>
-                    <li><a href="">Quality Assessment</a></li>
-                    <li><a href="">You have a hotel?</a></li>
+                    <li><h4 class="bold_text">Our Accommodations</h4></li>
+                    <li><a class="meduim_text" href="">Quality Assessment</a></li>
+                    <li><a class="meduim_text" href="">You have a hotel?</a></li>
                 </ul>
             </div>
             <div class="assistance each_footer">
                 <ul>
-                    <li><h4>Assessment</h4></li>
-                    <li><a href="">Help Desk</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><h4 class="bold_text">Assessment</h4></li>
+                    <li><a class="meduim_text" href="">Help Desk</a></li>
+                    <li><a class="meduim_text" href="">Contact Us</a></li>
                 </ul>
             </div>
         </div>
