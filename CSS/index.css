@@ -23,25 +23,26 @@ ul {
 a:link {
     text-decoration: none;
 }
-a:visited {
+a {
     color: black;
 }
 .top_nav {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: blueviolet; */
+}
+.logo_img {
+    margin: 0;
 }
 .logo {
     height: 40px;
-    margin-top: 60px;
-    /* padding-top: 10px; */
+    margin-top: 30px;
 }
 .nav_link {
     padding: 0;
     margin: 0;
-    width: 25%;
     /* background-color: mediumseagreen; */
 }
 .accom_link a:hover, .act_link a:hover {
@@ -54,9 +55,11 @@ a:hover {
     color: #0065FC;
 }
 .menu {
+    margin: 0;
     display: flex;
     line-height: 4;
     /* background-color: red; */
+    width: 250px;
 }
 .menu_item {
     width: 100%;
@@ -64,7 +67,7 @@ a:hover {
 }
 .menu_link {
 	display: block;
-    padding-top: 50px;
+    padding-top: 30px;
 	text-align: center;
     border-top-color: #F2F2F2;
     border-top-style: solid ;
@@ -196,6 +199,7 @@ sub {
 }
 .image_result {
     flex-wrap: wrap;
+    margin: 0;
 }
 .result {
     width: 30%;
@@ -208,7 +212,7 @@ sub {
     flex-grow: 1;
     display: flex;
     flex-direction: column-reverse;
-    /* justify-content: space-between; */
+    margin: 0;
 }
 .thumbnail_accom_info {
     background-color: white;
@@ -271,8 +275,6 @@ sub {
     display: flex;
 }
 .star {
-    /* height: 10px; */
-    /*margin-right: 2px; */
     font-size: 9px;
 }
 #most_popular {
@@ -287,7 +289,6 @@ sub {
     margin: 0;
 }
 .most_popular_title {
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
     margin: 0; padding: 0;
@@ -297,15 +298,12 @@ sub {
     /* height: 15px; */
 }
 .most_pop_result {
+    margin: 0;
     display: flex;
     flex-direction: row-reverse;
-    /* min-width: 200px;  */
     height: 145px;
-    background-color: white;
-    /* margin-left: auto; margin-right: auto; */
-    /* margin: 10px; */
+    padding: -10px;
     border-radius: 20px;
-    /* flex-grow: 1; */
     border: white;
     border-style: solid;
     border-width: 4px;
@@ -353,10 +351,8 @@ sub {
     flex-direction: column-reverse;
 }
 .act_result {
-    height: 445px; 
     width: 20%;
     border-radius: 20px;
-    /* margin: 0; */
     flex-grow: 1;
 }
 .act_divider {
@@ -385,6 +381,7 @@ sub {
     border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
 }
 .old_port {
+    height: 445px; 
     background-image: url("/booki_resources/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -423,11 +420,14 @@ sub {
     background-size: cover;
 }
 .footer_parent {
-    max-width: 1340px;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
+    max-width: 1340px;
     padding: 30px 32px;
     margin: auto;
+}
+.each_footer {
+    margin-right: auto;
 }
 footer {
     background-color: #F2F2F2;
@@ -476,8 +476,11 @@ footer {
         margin: 0;
         padding: 0;
     }
-    .act_change_height_mob {
-        max-height: 180px; 
+    .most_pop_result {
+        height: 140px; 
+    }
+    .act_change_height_mob, .result {
+        height: 180px; 
     }
 }
 
@@ -493,6 +496,9 @@ footer {
     }
     .main_margin {
         padding: 0;
+    }
+    .menu {
+        width: 100%;
     }
     .top_nav {
         /* background-color: honeydew; */
