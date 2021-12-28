@@ -489,9 +489,7 @@ footer {
         line-height: 1.5;
     }
     .menu_link {
-        border-top-color: none;
         border-top-style: none ;
-        border-top-width: none;
         border-bottom-color: #F2F2F2;
         border-bottom-style: solid ;
         border-bottom-width: 2px;
@@ -499,9 +497,7 @@ footer {
         padding-bottom: 15px;
     }
     .accom_link a:hover, .act_link a:hover {
-        border-top-color: none;
         border-top-style: none ;
-        border-top-width: none;
         border-bottom-color: #0065FC;
         border-bottom-style: solid ;
         border-bottom-width: 2px;
