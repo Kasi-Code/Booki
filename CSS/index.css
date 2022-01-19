@@ -150,6 +150,7 @@ sub {
     font-weight: bold;
 }
 .filter-logo {
+    margin-left: -2px;
     font-size: 20px;
     background-color: #DEEBFF;
     color: #0065FC;
