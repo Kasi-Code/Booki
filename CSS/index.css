@@ -79,6 +79,9 @@ sub {
     box-shadow: 1px 5px 8px #747474;
     cursor: pointer;
 }
+.hover-zoom {
+    transition: all 100ms ease-in-out;
+}
 .hover-zoom:hover {
     transform: scale(1.01);
 }
